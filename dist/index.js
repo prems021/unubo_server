@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express = require('express');
 const body_parser_1 = require("body-parser");
 
-const post_1 = require("./routes/post");
+
 var cors = require('cors');
 const app = express();
 const path = require('path');
@@ -13,7 +13,7 @@ app.use(body_parser_1.json());
 app.use(body_parser_1.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/public'));
 
-app.use("/api/post", post_1.postRouter);
+
 app.get('/api', function (req, res) {
     res.send('Hello World, How are you!');
 });
