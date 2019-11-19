@@ -40,7 +40,6 @@
     "rxjs": "^6.0.0",
     "rxjs-compat": "^6.2.0",
     "sequelize": "^4.37.10",
-    "sequelize-cli": "^4.0.0",
     "to-words": "^1.0.3",
     "typescript": "~2.7.2",
     "zone.js": "^0.8.26"
